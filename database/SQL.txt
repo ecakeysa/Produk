@@ -1,0 +1,9 @@
+CREATE TABLE `produk` (
+  `id` int(11) NOT NULL,
+  `kode` varchar(50) NOT NULL,
+  `nama` varchar(100) NOT NULL,
+  `harga` int(11) NOT NULL,
+  `url_gambar` text DEFAULT NULL,
+  `kategori` varchar(50) DEFAULT NULL,
+  `deskripsi` text DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
